@@ -8,6 +8,8 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  font-family: 'Rubik', sans-serif;;
+  
 }
 main {
   display: block;
@@ -32,6 +34,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bolder;
+
 }
 code,
 kbd,
