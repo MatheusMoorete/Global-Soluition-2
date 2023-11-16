@@ -1,6 +1,6 @@
 // CardSwiper.js
 import PropTypes from "prop-types";
-import { motion } from "framer-motion"; // Importe o motion
+import { motion } from "framer-motion"; 
 import "./CardSwiper.css";
 
 function CardSwiper({ title, image, description, link }) {
@@ -14,9 +14,9 @@ function CardSwiper({ title, image, description, link }) {
       <div className="card-content">
         <h2 className="card-title">{title}</h2>
         <p className="card-description">{description}</p>
-        <motion.button // Substitua button por motion.button
-          whileHover={{ scale: 1.1 }} // Adicione a animação que deseja aqui
-          whileTap={{ scale: 0.9 }} // Adicione a animação que deseja aqui
+        <motion.button 
+          whileHover={{ scale: 1.1 }} 
+          whileTap={{ scale: 0.9 }} 
           className="card-button" 
           onClick={handleButtonClick}
         >
@@ -31,7 +31,7 @@ CardSwiper.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired, // Adicionado prop para o link
+  link: PropTypes.string.isRequired, 
 };
 
 export default CardSwiper;

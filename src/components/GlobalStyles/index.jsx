@@ -34,6 +34,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bolder;
+  color:#3a525f ;
 
 }
 code,

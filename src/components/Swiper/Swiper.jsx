@@ -47,7 +47,6 @@ function MySwiper({ cards }) {
             prevEl: prevRef.current,
             nextEl: nextRef.current,
           }}
-          pagination={true}
           loop={true}
           mousewheel={true}
         >

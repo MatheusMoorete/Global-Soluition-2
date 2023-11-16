@@ -35,9 +35,9 @@
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-    transition: background-color 0.3s ease; /* Adicionado transição */
+    transition: background-color 0.3s ease; 
   }
   
   .card-button:hover {
-    background-color: #066f7f; /* Cor ao passar o mouse */
+    background-color: #066f7f; 
   }
