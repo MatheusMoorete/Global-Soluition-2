@@ -1,11 +1,17 @@
+import styled from "styled-components";
 import LineChart from "../../components/LineChart";
 import TrasitionPages from "../../components/Transition/TrasitionPages";
 
 
+const PageContainer = styled.div`
+  margin: 0 auto;
+  max-width: 90%;
+`;
+
 const Tema1 = () => {
   return (
     <TrasitionPages>
-      <div>
+      <PageContainer>
         <h1>Redução da Mortalidade Intantil</h1>
         <p>
           * Entre 1994 e 2017, o Brasil conseguiu reduzir sua taxa de mortalidade
@@ -18,7 +24,7 @@ const Tema1 = () => {
           (ESF), hoje presente em 98,4% dos municípios brasileiros.
         </p>
         <LineChart/>
-      </div>
+      </PageContainer>
     </TrasitionPages>
     
   );
