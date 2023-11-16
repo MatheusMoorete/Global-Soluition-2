@@ -21,7 +21,7 @@ function App() {
       <GlobalStyles/>
       <Header />
         <Routes>
-          <Route path="https://gs2-kappa.vercel.app/" element={<Home />} /> 
+          <Route path="https://gs2-kappa.vercel.app/Home" element={<Home />} /> 
           <Route path="/Home" element={<Home />} /> 
           <Route path="/Infancia" element={<Infancia />} />
           <Route path="/Doenças" element={<Doenças />} />
