@@ -22,7 +22,7 @@ export const AnimatedNavLink = styled(Nav.Link)`
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #A0C49D;
+    background-color: #FFD375;
     transition: width 0.3s ease;
   }
 
@@ -41,7 +41,7 @@ export const AnimatedNavLink = styled(Nav.Link)`
 
   &.active {
     font-weight: bold;
-    color: #E9FFC2
+    color: #FFD375
   }
 `;
 

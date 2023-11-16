@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import StyledArrow from "../../components/StyledArrow/StyledArrow";
 import TrasitionPages from "../../components/Transition/TrasitionPages";
+import {Card, Cabecalho, Foto, Rodape, RodapeH4, RodapeH5, CardContainer} from "../../components/Cards/Cards"
+
+
 
 const StyledDiv = styled.div`
   display: flex;
@@ -15,6 +18,7 @@ const StyledH1 = styled.h1`
   justify-content: center;
   align-items: center;
   width: 100%;
+  color: #3a525f;
 `;
 
 const AboutSection = styled.div`
@@ -23,27 +27,9 @@ const AboutSection = styled.div`
   color: #fff;
 `;
 
-const CardContainer = styled.div`
-  display: flex;
-  justify-content: space-around;
-  margin: 100px 0; /* Ajuste na margem superior */
-  color: #e9ffc2;
-`;
 
-const Card = styled.div`
-  border: 3px solid #e9ffc2;
-  padding: 20px;
-  width: 250px;
-  text-align: center;
-  border-radius: 10px; /* Adiciona bordas arredondadas */
-`;
 
-const PersonPhoto = styled.img`
-  width: 100px;
-  height: 100px;
-  border-radius: 50%; /* Faz a foto ficar redonda */
-  margin-bottom: 10px;
-`;
+
 
 const Home = () => {
   const [isArrowFixed, setIsArrowFixed] = useState(false);
@@ -84,6 +70,7 @@ const Home = () => {
           <StyledArrow onClick={handleScrollToAbout} fixed={isArrowFixed} />
         </StyledDiv>
       </div>
+      
 
       <AboutSection id="aboutSection">
         <h2>Fale Conosco</h2>
@@ -105,48 +92,68 @@ const Home = () => {
         </p>
         <CardContainer>
           <Card>
-            <PersonPhoto
-              src="https://github.com/matheusmoorete.png"
-              alt="Foto da Pessoa 1"
-            />
-            <h4>Matheus Morete</h4>
-            <p>RM12345</p>
+            <Cabecalho>
+              <Foto
+                src="https://github.com/matheusmoorete.png"
+                alt="Foto da Pessoa 1"
+              />
+            </Cabecalho>
+            <Rodape>
+              <RodapeH4>Matheus Morete</RodapeH4>
+              <RodapeH5>RM12345</RodapeH5>
+            </Rodape>
           </Card>
           <Card>
-            <PersonPhoto
-              src="https://github.com/matheusmoorete.png"
-              alt="Foto da Pessoa 1"
-            />
-            <h4>Matheus Morete</h4>
-            <p>RM12345</p>
+            <Cabecalho>
+              <Foto
+                src="https://github.com/matheusmoorete.png"
+                alt="Foto da Pessoa 1"
+              />
+            </Cabecalho>
+            <Rodape>
+              <RodapeH4>Matheus Morete</RodapeH4>
+              <RodapeH5>RM12345</RodapeH5>
+            </Rodape>
           </Card>
           <Card>
-            <PersonPhoto
-              src="https://github.com/matheusmoorete.png"
-              alt="Foto da Pessoa 1"
-            />
-            <h4>Matheus Morete</h4>
-            <p>RM12345</p>
+            <Cabecalho>
+              <Foto
+                src="https://github.com/matheusmoorete.png"
+                alt="Foto da Pessoa 1"
+              />
+            </Cabecalho>
+            <Rodape>
+              <RodapeH4>Matheus Morete</RodapeH4>
+              <RodapeH5>RM12345</RodapeH5>
+            </Rodape>
           </Card>
           <Card>
-            <PersonPhoto
-              src="https://github.com/matheusmoorete.png"
-              alt="Foto da Pessoa 1"
-            />
-            <h4>Matheus Morete</h4>
-            <p>RM12345</p>
+            <Cabecalho>
+              <Foto
+                src="https://github.com/matheusmoorete.png"
+                alt="Foto da Pessoa 1"
+              />
+            </Cabecalho>
+            <Rodape>
+              <RodapeH4>Matheus Morete</RodapeH4>
+              <RodapeH5>RM12345</RodapeH5>
+            </Rodape>
           </Card>
           <Card>
-            <PersonPhoto
-              src="https://github.com/matheusmoorete.png"
-              alt="Foto da Pessoa 1"
-            />
-            <h4>Matheus Morete</h4>
-            <p>RM12345</p>
+            <Cabecalho>
+              <Foto
+                src="https://github.com/matheusmoorete.png"
+                alt="Foto da Pessoa 1"
+              />
+            </Cabecalho>
+            <Rodape>
+              <RodapeH4>Matheus Morete</RodapeH4>
+              <RodapeH5>RM12345</RodapeH5>
+            </Rodape>
           </Card>
         </CardContainer>
       </AboutSection>
-    </TrasitionPages>
+      </TrasitionPages>
   );
 };
 
