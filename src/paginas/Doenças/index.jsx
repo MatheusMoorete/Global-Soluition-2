@@ -26,11 +26,11 @@ const Tema2 = () => {
       link: "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tuberculose", // Adicionado o link aqui
     },
     {
-      title: "Arboviroses",
-      image: ImagemDengue,
+      title: "Hepatites Virais",
+      image: "https://i.em.com.br/z-xJI8OVxpt39hYnqsjWwOOocBw=/750x0/smart/imgsapp.em.com.br/app/noticia_127983242361/2023/05/30/1500485/ilustracao-de-um-figado-humano_1_50519.png",
       description:
-        "Arboviroses são doenças causadas por vírus transmitidos, principalmente, por mosquitos. As arboviroses mais comuns em ambientes urbanos são: Dengue, Chikungunya e Zika, transmitidas pelo mosquito Aedes aegypti.",
-      link: "https://www.prefeitura.sp.gov.br/cidade/secretarias/saude/vigilancia_em_saude/doencas_e_agravos/index.php?p=266741", // Adicionado o link aqui
+        "As Hepatites A, B e C são inflamações no fígado causadas por diferentes tipos de vírus. Os tipos B e C podem causar doenças graves como cirrose e câncer e todos os tipos de hepatite podem levar à morte.",
+      link: "http://antigo.aids.gov.br/pt-br/publico-geral/hv/o-que-sao-hepatites-virais", // Adicionado o link aqui
     },
     {
       title: "Arboviroses",

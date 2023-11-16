@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import StyledArrow from "../../components/StyledArrow/StyledArrow";
+import StyledArrowDown from "../../components/StyledArrow/StyledArrowDown";
 import TrasitionPages from "../../components/Transition/TrasitionPages";
 import {Card, Cabecalho, Foto, Rodape, RodapeH4, RodapeH5, CardContainer} from "../../components/Cards/Cards"
 
@@ -67,7 +67,7 @@ const Home = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
-          <StyledArrow onClick={handleScrollToAbout} fixed={isArrowFixed} />
+          <StyledArrowDown onClick={handleScrollToAbout} fixed={isArrowFixed} />
         </StyledDiv>
       </div>
       
