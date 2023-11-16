@@ -3,6 +3,8 @@ import styled from "styled-components";
 import StyledArrowDown from "../../components/StyledArrow/StyledArrowDown";
 import TrasitionPages from "../../components/Transition/TrasitionPages";
 import {Card, Cabecalho, Foto, Rodape, RodapeH4, RodapeH5, CardContainer} from "../../components/Cards/Cards"
+import HomeIcons from "../../components/HomeIcons";
+
 
 
 
@@ -100,7 +102,9 @@ const Home = () => {
             </Cabecalho>
             <Rodape>
               <RodapeH4>Matheus Morete</RodapeH4>
-              <RodapeH5>RM12345</RodapeH5>
+              <RodapeH5>RM12345
+              </RodapeH5>
+              <HomeIcons linkedinUrl="https://www.linkedin.com/in/seu-nome" githubUrl="https://github.com/seu-nome"/>
             </Rodape>
           </Card>
           <Card>
@@ -113,6 +117,7 @@ const Home = () => {
             <Rodape>
               <RodapeH4>Matheus Morete</RodapeH4>
               <RodapeH5>RM12345</RodapeH5>
+              <HomeIcons linkedinUrl="https://www.linkedin.com/in/seu-nome" githubUrl="https://github.com/seu-nome"/>
             </Rodape>
           </Card>
           <Card>
@@ -125,6 +130,7 @@ const Home = () => {
             <Rodape>
               <RodapeH4>Matheus Morete</RodapeH4>
               <RodapeH5>RM12345</RodapeH5>
+              <HomeIcons linkedinUrl="https://www.linkedin.com/in/seu-nome" githubUrl="https://github.com/seu-nome"/>
             </Rodape>
           </Card>
           <Card>
@@ -137,6 +143,7 @@ const Home = () => {
             <Rodape>
               <RodapeH4>Matheus Morete</RodapeH4>
               <RodapeH5>RM12345</RodapeH5>
+              <HomeIcons linkedinUrl="https://www.linkedin.com/in/seu-nome" githubUrl="https://github.com/seu-nome"/>
             </Rodape>
           </Card>
           <Card>
@@ -149,6 +156,7 @@ const Home = () => {
             <Rodape>
               <RodapeH4>Matheus Morete</RodapeH4>
               <RodapeH5>RM12345</RodapeH5>
+              <HomeIcons linkedinUrl="https://www.linkedin.com/in/seu-nome" githubUrl="https://github.com/seu-nome"/>
             </Rodape>
           </Card>
         </CardContainer>

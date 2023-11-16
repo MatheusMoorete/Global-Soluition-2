@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { FaLinkedin } from 'react-icons/fa';
 
 export const CardContainer = styled.div`
   display: flex;
@@ -48,4 +49,10 @@ export const RodapeH5 = styled.h5`
   line-height: 22px;
   color: #8399a5;
   padding: 0 16px;
+  display: flex;
+  align-items: center; /* Alinha o ícone com o texto */
+`;
+
+export const LinkedInIcon = styled(FaLinkedin)`
+  margin-left: 8px; /* Adiciona espaço à esquerda do ícone para separá-lo do texto */
 `;

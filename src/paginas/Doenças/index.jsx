@@ -8,6 +8,31 @@ const PageContainer = styled.div`
   margin: 0 auto;
   max-width: 90%;
 `;
+const StyledTitle = styled.h1`
+  a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -3px; /* Ajuste conforme necessário */
+      width: 100%;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.3s ease-in-out;
+    }
+
+    &:hover {
+      &:before {
+        border-color: #000; /* Substitua pelo seu esquema de cores */
+      }
+    }
+  }
+`;
+
+
 
 const Tema2 = () => {
   const cards = [
@@ -53,9 +78,9 @@ const Tema2 = () => {
     <TrasitionPages>
       <PageContainer>
         <div>
-          <h1>Combate a doenças transmissíveis</h1>
+        <StyledTitle><a href="https://pt.wikipedia.org/wiki/Doen%C3%A7a_infecciosa" target="_blank">Combate a doenças transmissíveis</a></StyledTitle>
           <p>
-            Na Medicina, uma doença infecciosa, doença infeciosa ou{" "}
+            Na Medicina, uma doença infeciosa ou{" "}
             <strong>doença transmissível </strong>é uma doença ou distúrbio de
             funções orgânicas, causada por um agente infeccioso ou as suas
             toxinas através da transmissão desse agente ou seus produtos, do
