@@ -1,4 +1,4 @@
-// CardSwiper.js
+// ESSE SÃO OS CARDS UTILIZADO NA PAGINA DOENÇAS NO SLIDER
 import PropTypes from "prop-types";
 import { motion } from "framer-motion"; 
 import "./CardSwiper.css";

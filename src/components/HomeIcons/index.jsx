@@ -11,8 +11,6 @@ const IconsHomeDiv = styled.div`
   svg {
     margin: 0 8px;
     cursor: pointer;
-
-    /* Adicione a propriedade whileHover para aplicar o efeito 3D */
     transition: transform 0.3s ease-in-out;
     &:hover {
       transform: translateY(-5px) scale(1.2);

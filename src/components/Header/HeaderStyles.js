@@ -23,7 +23,7 @@ export const AnimatedNavLink = styled(Nav.Link)`
     width: 0;
     height: 2px;
     background-color: #FFD375;
-    transition: width 0.3s ease;
+    transition: width 0.2s ease;
   }
 
   &:hover:before {

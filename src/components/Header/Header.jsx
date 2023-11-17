@@ -7,7 +7,7 @@ const Header = () => {
  return (
    <StyledNavbar variant="dark">
      <Container>
-       <AnimatedNavLink className="Home" as={NavLink} to="/Home">
+       <AnimatedNavLink className="Home" as={NavLink} to="/">
          Home
        </AnimatedNavLink>
        <Nav className="ms-auto">

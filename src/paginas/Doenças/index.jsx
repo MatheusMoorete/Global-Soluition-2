@@ -8,7 +8,7 @@ import ImagemGripe from "../../imagens/gripe.png"
 import ImagemHiv from "../../imagens/hiv.png"
 import ImagemDiarreica from "../../imagens/Diarreica.png"
 
-
+//ESTILOS
 const PageContainer = styled.div`
   margin: 0 auto;
   max-width: 90%;
@@ -34,9 +34,10 @@ const StyledTitle = styled.h1`
   }
 `;
 const TitleContainer = styled.div`
-  display: inline-block; /* Faz com que a div tenha o tamanho do conteúdo */
+  display: inline-block; 
 `;
 
+//CONTEUDO CARDS DO SWIPER
 const Tema2 = () => {
   const cards = [
     {

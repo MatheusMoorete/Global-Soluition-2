@@ -1,6 +1,6 @@
 // Swiper.js
-import { useRef } from "react";
-import { Mousewheel,Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { useRef, useEffect } from "react";
+import { Mousewheel, Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -22,11 +22,11 @@ const StyledNavigation = styled.div`
   }
 
   .swiper-button-prev {
-    left: 10px;
+    left: 15px;
   }
 
   .swiper-button-next {
-    right: 10px;
+    right: 15px;
   }
 `;
 
@@ -34,15 +34,19 @@ function MySwiper({ cards }) {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
+  useEffect(() => {
+    console.log("Refs:", prevRef.current, nextRef.current);
+  }, []); // Verificar as refs quando o componente é montado
+
   return (
     <>
       <StyledNavigation>
         <Swiper
-          modules={[Mousewheel,Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Mousewheel, Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={5}
           slidesPerView={4}
           onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
+          onSwiper={(swiper) => console.log("Swiper initialized:", swiper)}
           navigation={{
             prevEl: prevRef.current,
             nextEl: nextRef.current,

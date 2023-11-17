@@ -1,3 +1,6 @@
+//ESSES CARDS SÃO REUTILIZADO NA PAGINA HOME 
+//AQUI É APENAS O STYLED COMPONENTS, DEIXEI EM UM COMPONENTE SEPARADO PARA NÃO POLUIR 
+
 import styled from 'styled-components';
 import { FaLinkedin } from 'react-icons/fa';
 

@@ -15,6 +15,7 @@ import GlobalStyles from './components/GlobalStyles';
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -22,7 +23,7 @@ function App() {
       <Header />
         <Routes>
           <Route path="https://gs2-kappa.vercel.app/Home" element={<Home />} /> 
-          <Route path="/Home" element={<Home />} /> 
+          <Route path="/" element={<Home />} /> 
           <Route path="/Infancia" element={<Infancia />} />
           <Route path="/Doenças" element={<Doenças />} />
           <Route path="/Prevencao" element={<Prevencao />} />
