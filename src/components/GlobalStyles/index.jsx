@@ -140,6 +140,9 @@ template {
 [hidden] {
   display: none;
 }
+a{
+  text-decoration: none;
+}
 
 `;
 export default GlobalStyles;

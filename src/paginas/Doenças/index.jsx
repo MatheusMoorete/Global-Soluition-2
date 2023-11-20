@@ -102,6 +102,8 @@ const Tema2 = () => {
               
             </StyledTitle>
           </TitleContainer>
+        
+
           <p>
             Na Medicina, uma doença infeciosa ou{" "}
             <strong>doença transmissível </strong>é uma doença ou distúrbio de
@@ -113,6 +115,7 @@ const Tema2 = () => {
             qualquer doença causada por um agente patogênico , em contraste com
             causas externas ou físicas
           </p>
+          <br/>
           <MySwiper cards={cards} />
         </div>
       </PageContainer>

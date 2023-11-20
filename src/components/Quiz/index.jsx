@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { MdReplay } from 'react-icons/md';
+import React, { useState } from "react";
+import { MdReplay } from "react-icons/md";
 import {
   Container,
   Pontuacao,
@@ -9,9 +9,9 @@ import {
   Pergunta,
   GrupoResposta,
   Resposta,
-  Button,
-} from './styles'; 
-import { Perguntas as PerguntasIniciais } from '../../data/perguntas';
+  Button
+} from "./styles";
+import { Perguntas as PerguntasIniciais } from "../../data/perguntas";
 
 const todasPerguntas = [...PerguntasIniciais];
 
@@ -48,39 +48,41 @@ export default function Quiz() {
   }
 
   return (
-    <Container>
-      {showPontuacao ? (
-        <Pontuacao>
-          <span>Você fez {pontos} pontos</span>
-          <Button onClick={() => setRepeating(true)}>
-            <MdReplay /> Repeat
-          </Button>
-        </Pontuacao>
-      ) : (
-        <>
-          <InfoPerguntas>
-            <ContagemPerguntas>
-              <ContagemPerguntasSpan>
-                Perguntas:
-              </ContagemPerguntasSpan>
-            </ContagemPerguntas>
-            {perguntaAtual < todasPerguntas.length && (
-              <Pergunta>{todasPerguntas[perguntaAtual].pergunta}</Pergunta>
-            )}
-          </InfoPerguntas>
-          <Resposta>
-            {perguntaAtual < todasPerguntas.length &&
-              todasPerguntas[perguntaAtual].opcoesResposta.map((opcoesResposta) => (
-                <GrupoResposta key={opcoesResposta.alternativa}>
-                  <span>{opcoesResposta.alternativa}</span>
-                  <Button onClick={() => proximaPergunta(opcoesResposta.correta)}>
-                    {opcoesResposta.resposta}
-                  </Button>
-                </GrupoResposta>
-              ))}
-          </Resposta>
-        </>
-      )}
-    </Container>
+      <Container>
+        {showPontuacao ? (
+          <Pontuacao>
+            <span>Você fez {pontos} pontos</span>
+            <Button onClick={() => setRepeating(true)}>
+              <MdReplay /> Repeat
+            </Button>
+          </Pontuacao>
+        ) : (
+          <>
+            <InfoPerguntas>
+              <ContagemPerguntas>
+                <ContagemPerguntasSpan>Perguntas:</ContagemPerguntasSpan>
+              </ContagemPerguntas>
+              {perguntaAtual < todasPerguntas.length && (
+                <Pergunta>{todasPerguntas[perguntaAtual].pergunta}</Pergunta>
+              )}
+            </InfoPerguntas>
+            <Resposta>
+              {perguntaAtual < todasPerguntas.length &&
+                todasPerguntas[perguntaAtual].opcoesResposta.map(
+                  (opcoesResposta) => (
+                    <GrupoResposta key={opcoesResposta.alternativa}>
+                      <span>{opcoesResposta.alternativa}</span>
+                      <Button
+                        onClick={() => proximaPergunta(opcoesResposta.correta)}
+                      >
+                        {opcoesResposta.resposta}
+                      </Button>
+                    </GrupoResposta>
+                  )
+                )}
+            </Resposta>
+          </>
+        )}
+      </Container>
   );
 }

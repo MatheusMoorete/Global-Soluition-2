@@ -1,36 +1,25 @@
-import Quiz from "../../components/Quiz";
-import TrasitionPages from "../../components/Transition/TrasitionPages";
-import {
-  PageContainer,
-  StyledTitle,
-  TitleContainer,
-} from "../../components/StyledBasics/style";
-import { FaExternalLinkAlt } from "react-icons/fa"; 
+import TextSection from "../../components/TextSection/TextSection";
+import QuizSection from "../../components/Quiz";
+import { ContainerQuiz } from "../../components/Quiz/styles";
+import MyFooter from './../../components/Footer/index';
 
 const Tema3 = () => {
   return (
-    <TrasitionPages>
-      <PageContainer>
-        <TitleContainer>
-          <StyledTitle>
-          <a
-              href="https://g1.globo.com/ciencia-e-saude/noticia/2020/03/10/mortalidade-infantil-caiu-mais-rapido-em-municipios-que-implantaram-a-saude-da-familia-do-sus-diz-estudo.ghtml"
-              target="_blank"
-            >
-              <strong>Prevenção e tratamento de doenças não transmissíveis</strong>
-              <FaExternalLinkAlt className="link-icon" />
-            </a>
-          </StyledTitle>
-        </TitleContainer>
+    <>
+      <TextSection />
+      <ContainerQuiz id="quiz-section">
+        <br></br>
+        <h1>Algum Titulo (talvez)</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-          repudiandae dolor ipsa dignissimos officiis hic excepturi quidem.
-          Similique, recusandae nam, consequatur tempora ea et labore atque,
-          iure velit ut nulla.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          eos, maxime nam magnam, iusto optio, sit dolorem nemo velit voluptate
+          laborum perspiciatis! Eligendi impedit laudantium unde cupiditate
+          dignissimos ut dolore.
         </p>
-        <Quiz />
-      </PageContainer>
-    </TrasitionPages>
+        <QuizSection />
+      </ContainerQuiz>
+      <MyFooter></MyFooter>
+    </>
   );
 };
 

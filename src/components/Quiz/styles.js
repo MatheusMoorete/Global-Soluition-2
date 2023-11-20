@@ -8,6 +8,15 @@ export const Container = styled.div`
   border-radius: 15px;
   padding: 20px;
   box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  margin: 100px auto; 
+`;
+export const ContainerQuiz = styled.div`
+  max-width: 100%;
+  margin: 170px auto 0; 
+  background-color:#088395;
+  padding: 100px; /* Adiciona algum espaçamento interno */
+  color: #fff;;
+
 `;
 
 export const Pontuacao = styled.div`
