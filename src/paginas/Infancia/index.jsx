@@ -4,8 +4,9 @@ import {
   PageContainer,
   StyledTitle,
   TitleContainer,
+  TwoColumnContainer,
 } from "../../components/StyledBasics/style";
-import { FaExternalLinkAlt } from "react-icons/fa"; 
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Tema1 = () => {
   return (
@@ -22,19 +23,32 @@ const Tema1 = () => {
             </a>
           </StyledTitle>
         </TitleContainer>
-        <p>
-          Entre 1994 e 2017, o Brasil conseguiu reduzir sua taxa de
-          mortalidade infantil em 71%. Os índices caíram de 43 bebês mortos com
-          menos de um ano de idade a cada mil nascidos vivos – um dos mais altos
-          do continente – para 12,4 por mil nascidos vivos, atingindo e
-          superando a meta das Nações Unidas com quatro anos de antecedência. Um
-          dos fatores por trás desse avanço, segundo um relatório divulgado
-          nesta terça-feira (10), foi a implantação da Estratégia Saúde da
-          Família (ESF), hoje presente em 98,4% dos municípios brasileiros.
-        </p>
-        <LineChart />
+        <TwoColumnContainer>
+          <p>
+            <br></br>
+            Entre 1994 e 2017, o Brasil conseguiu reduzir sua taxa de
+            mortalidade infantil em 71%. Os índices caíram de 43 bebês mortos
+            com menos de um ano de idade a cada mil nascidos vivos – um dos mais
+            altos do continente – para 12,4 por mil nascidos vivos, atingindo e
+            superando a meta das Nações Unidas com quatro anos de antecedência.
+            Um dos fatores por trás desse avanço, segundo um relatório divulgado
+            nesta terça-feira (10), foi a implantação da Estratégia Saúde da
+            Família (ESF), hoje presente em 98,4% dos municípios brasileiros.
+            <br></br>
+            <br></br>
+            Para muitos brasileiros em áreas pobres e rurais, esse foi o
+            primeiro contato com o poder público. Assim, este programa é um dos
+            maiores do mundo em termos de visitação domiciliar. É quase como uma
+            pequena revolução, porque traz informações sobre cuidados básicos,
+            higiene, lavagem das mãos, alimentação e a necessidade das crianças
+            de frequentarem a escola, além do pré-natal para as mães. Vê-se,
+            portanto, que ao observar o gráfico ao lado, apesar da ainda
+            existente disparidade entre as regiões, nos últimos 30 anos houve um
+            avanço gritante na redução da mortalidade infantil no país.
+          </p>
+          <LineChart />
+        </TwoColumnContainer>
       </PageContainer>
-
     </TrasitionPages>
   );
 };

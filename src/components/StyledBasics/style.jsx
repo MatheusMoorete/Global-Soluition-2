@@ -27,3 +27,8 @@ export const StyledTitle = styled.h1`
 export const TitleContainer = styled.div`
   display: inline-block; 
 `;
+export const TwoColumnContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+
+`;

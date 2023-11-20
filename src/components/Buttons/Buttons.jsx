@@ -9,7 +9,7 @@ const ButtonContainer = styled(motion.div)`
 `;
 
 const StyledButton = styled(motion.button)`
-  background-color: #088395;
+  background-color: #4D4C7D;
   color: #fff;
   padding: 10px 20px;
   margin: 0 10px;
@@ -18,6 +18,10 @@ const StyledButton = styled(motion.button)`
   font-size: 16px;
   border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.184) 0px 18px 36px -18px inset;
+  &:hover {
+    background-color: #363062;
+  }
+  
 `;
 
 const Buttons = ({ children }) => {

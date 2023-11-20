@@ -24,8 +24,8 @@ const StyledH1 = styled.h1`
 `;
 
 const AboutSection = styled.div`
-  background-color: #088395;
-  padding: 100px; /* Adiciona algum espaçamento interno */
+  background-color: #363062;
+  padding: 100px; 
   color: #fff;
 `;
 

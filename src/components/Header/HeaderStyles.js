@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Navbar, Nav } from 'react-bootstrap';
 
 export const StyledNavbar = styled(Navbar)`
-  background-color: #088395;
+  background-color: #363062;
   box-shadow: 0px 4px 4px rgba(14, 14, 14, 0.245);
   font-family: 'Rubik', sans-serif;
 `;
@@ -22,7 +22,7 @@ export const AnimatedNavLink = styled(Nav.Link)`
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #FFD375;
+    background-color: #F9B572;
     transition: width 0.2s ease;
   }
 
@@ -41,7 +41,7 @@ export const AnimatedNavLink = styled(Nav.Link)`
 
   &.active {
     font-weight: bold;
-    color: #FFD375
+    color: #F9B572
   }
 `;
 

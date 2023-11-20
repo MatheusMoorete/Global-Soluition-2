@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: #088395;
+  background-color: #4D4C7D;
   width: 450px;
   min-height: 200px;
   height: min-content;
@@ -13,8 +13,8 @@ export const Container = styled.div`
 export const ContainerQuiz = styled.div`
   max-width: 100%;
   margin: 170px auto 0; 
-  background-color:#088395;
-  padding: 100px; /* Adiciona algum espaçamento interno */
+  background-color:#363062;
+  padding: 100px; 
   color: #fff;;
 
 `;
@@ -68,7 +68,7 @@ export const Button = styled.button`
   width: 100%;
   font-size: 16px;
   color: #fff;
-  background-color: #BA5C12;
+  background-color: #F99417;
   border-radius: 8px;
   padding: 8px;
   border: 3px solid #3E2F5B;

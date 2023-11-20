@@ -1,8 +1,8 @@
 /* AQUI EU USEI CSS PQ COM STYLES COMPONETS NÃO FICOU LEGAL O QUE EU QUERIA APLICAR */
 
 .card {
-    background-color: #088395 ;
-    color: white;
+    background-color: #363062 ;
+    color: #F5F5F5;
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
@@ -16,8 +16,8 @@
   
   .card-content {
     padding: 20px;
-    background-color: white;
-    color: black;
+    background-color: #F5F5F5;
+    color: #000;
   }
   
   .card-title {
@@ -30,8 +30,8 @@
   }
   
   .card-button {
-    background-color: #088395;
-    color: white;
+    background-color: #4D4C7D;
+    color: #F5F5F5;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -41,5 +41,5 @@
   }
   
   .card-button:hover {
-    background-color: #066f7f; 
+    background-color: #363062; 
   }

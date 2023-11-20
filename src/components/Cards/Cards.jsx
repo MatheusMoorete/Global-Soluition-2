@@ -16,7 +16,7 @@ export const Card = styled.div`
 `;
 
 export const Cabecalho = styled.div`
-  background-color: #ffc155;
+  background-color: #F99417;
   border-radius: 10px 10px 0px 0px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.322);
 `;
@@ -33,7 +33,7 @@ export const Rodape = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #fff2cc;
+  background: #F5F5F5;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.274);
   border-radius: 0px 0px 10px 10px;
   padding-top: 90px;
