@@ -1,4 +1,4 @@
-// HeaderStyles.js
+// Estilos do Header
 import styled from 'styled-components';
 import { Navbar, Nav } from 'react-bootstrap';
 
@@ -9,11 +9,12 @@ export const StyledNavbar = styled(Navbar)`
 `;
 
 export const AnimatedNavLink = styled(Nav.Link)`
-  color: #ffffff;
+ color: #ffffff;
   padding: 0.5rem 1rem;
   position: relative;
   display: inline-block;
   text-decoration: none;
+  overflow: hidden; 
 
   &:before {
     content: '';
@@ -27,7 +28,7 @@ export const AnimatedNavLink = styled(Nav.Link)`
   }
 
   &:hover:before {
-    width: 100%;
+    width: calc(100% - 5px)
   }
 
   &:hover {
@@ -41,7 +42,7 @@ export const AnimatedNavLink = styled(Nav.Link)`
 
   &.active {
     font-weight: bold;
-    color: #F9B572
+    color: #F9B572;
   }
 `;
 

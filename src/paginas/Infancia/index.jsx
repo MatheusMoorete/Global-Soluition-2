@@ -5,8 +5,9 @@ import {
   StyledTitle,
   TitleContainer,
   TwoColumnContainer,
-} from "../../components/StyledBasics/style";
+} from "../../components/StyledBasics/StyleBasics";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import MyFooter from '../../components/Footer/MyFooter';
 
 const Tema1 = () => {
   return (
@@ -31,8 +32,7 @@ const Tema1 = () => {
             com menos de um ano de idade a cada mil nascidos vivos – um dos mais
             altos do continente – para 12,4 por mil nascidos vivos, atingindo e
             superando a meta das Nações Unidas com quatro anos de antecedência.
-            Um dos fatores por trás desse avanço, segundo um relatório divulgado
-            nesta terça-feira (10), foi a implantação da Estratégia Saúde da
+            Um dos fatores por trás desse avanço, foi a implantação da Estratégia Saúde da
             Família (ESF), hoje presente em 98,4% dos municípios brasileiros.
             <br></br>
             <br></br>
@@ -48,8 +48,41 @@ const Tema1 = () => {
           </p>
           <LineChart />
         </TwoColumnContainer>
+        <p> Para muitos brasileiros em áreas pobres e rurais, esse foi o
+            primeiro contato com o poder público. Assim, este programa é um dos
+            maiores do mundo em termos de visitação domiciliar. É quase como uma
+            pequena revolução, porque traz informações sobre cuidados básicos,
+            higiene, lavagem das mãos, alimentação e a necessidade das crianças
+            de frequentarem a escola, além do pré-natal para as mães. Vê-se,
+            portanto, que ao observar o gráfico ao lado, apesar da ainda
+            existente disparidade entre as regiões, nos últimos 30 anos houve um
+            avanço gritante na redução da mortalidade infantil no país.</p>
+
+            <p> Para muitos brasileiros em áreas pobres e rurais, esse foi o
+            primeiro contato com o poder público. Assim, este programa é um dos
+            maiores do mundo em termos de visitação domiciliar. É quase como uma
+            pequena revolução, porque traz informações sobre cuidados básicos,
+            higiene, lavagem das mãos, alimentação e a necessidade das crianças
+            de frequentarem a escola, além do pré-natal para as mães. Vê-se,
+            portanto, que ao observar o gráfico ao lado, apesar da ainda
+            existente disparidade entre as regiões, nos últimos 30 anos houve um
+            avanço gritante na redução da mortalidade infantil no país.</p>
+            <TwoColumnContainer>
+            <LineChart/>
+            <p> Para muitos brasileiros em áreas pobres e rurais, esse foi o
+            primeiro contato com o poder público. Assim, este programa é um dos
+            maiores do mundo em termos de visitação domiciliar. É quase como uma
+            pequena revolução, porque traz informações sobre cuidados básicos,
+            higiene, lavagem das mãos, alimentação e a necessidade das crianças
+            de frequentarem a escola, além do pré-natal para as mães. Vê-se,
+            portanto, que ao observar o gráfico ao lado, apesar da ainda
+            existente disparidade entre as regiões, nos últimos 30 anos houve um
+            avanço gritante na redução da mortalidade infantil no país.</p>
+            </TwoColumnContainer>
       </PageContainer>
+      <MyFooter/>
     </TrasitionPages>
+
   );
 };
 

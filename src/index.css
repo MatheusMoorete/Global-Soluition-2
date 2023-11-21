@@ -1,0 +1,17 @@
+/* SROLL BAR MODIFICADO */
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: #FECDA6;
+}
+::-webkit-scrollbar-thumb{
+    background: #F99417;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb-:hover{
+    background: #4d4c7d1f;
+}
+

@@ -3,7 +3,7 @@ import TrasitionPages from "../../components/Transition/TrasitionPages";
 import MySwiper from "../../components/Swiper/Swiper";
 import { FaExternalLinkAlt } from "react-icons/fa"; 
 
-import MyFooter from './../../components/Footer/index';
+import MyFooter from './../../components/Footer/MyFooter';
 import { CardSwiperConteudo } from "../../components/CardSwiper/CardSwiperConteudo";
 
 //ESTILOS

@@ -1,14 +1,20 @@
+//Esse é um normalize CSS, usei ele para formatar tudo.
+//Fiz alteraçoes no html, adicionando tirando o overflow, no body colocando uma font padrão para o site
+//e no strong adicionando uma cor patrão para a tag
+
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 html {
   line-height: 1.15; 
   -webkit-text-size-adjust: 100%; 
+  overflow-x: hidden; //REMOVI O SCROLL BAR INFERIOR 
 }
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: 'Rubik', sans-serif;;
+  font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
   
 }
 main {

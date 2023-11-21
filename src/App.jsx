@@ -10,7 +10,7 @@ import Prevencao from './paginas/Prevencao';
 import Saude from './paginas/Saude';
 //Componentes
 import Header from "./components/Header/Header";
-import GlobalStyles from './components/GlobalStyles';
+import GlobalStyles from './components/GlobalStyles/GlobalStyles';
 
 
 

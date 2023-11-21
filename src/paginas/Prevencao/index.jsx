@@ -1,7 +1,7 @@
 import TextSection from "../../components/TextSection/TextSection";
 import QuizSection from "../../components/Quiz";
 import { ContainerQuiz } from "../../components/Quiz/styles";
-import MyFooter from './../../components/Footer/index';
+import MyFooter from './../../components/Footer/MyFooter';
 
 const Tema3 = () => {
   return (
@@ -18,7 +18,7 @@ const Tema3 = () => {
         </p>
         <QuizSection />
       </ContainerQuiz>
-      <MyFooter></MyFooter>
+      <MyFooter/>
     </>
   );
 };

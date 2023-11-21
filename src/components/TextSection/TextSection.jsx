@@ -4,10 +4,11 @@ import {
   PageContainer,
   StyledTitle,
   TitleContainer,
-} from "../../components/StyledBasics/style";
+} from "../../components/StyledBasics/StyleBasics";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import styled from "styled-components";
 import Buttons from "../../components/Buttons/Buttons";
+import MyFooter from '../Footer/MyFooter';
 
 const MarcaTexto = styled.strong`
   background-color: #fdd275;
@@ -22,7 +23,7 @@ const TextSection = () => {
         <TitleContainer>
           <StyledTitle>
             <a
-              href="https://g1.globo.com/ciencia-e-saude/noticia/2020/03/10/mortalidade-infantil-caiu-mais-rapido-em-municipios-que-implantaram-a-saude-da-familia-do-sus-diz-estudo.ghtml"
+              href="https://www.prefeitura.sp.gov.br/cidade/secretarias/saude/noticias/?p=201457"
               target="_blank"
             >
               <strong>

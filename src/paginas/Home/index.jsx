@@ -3,7 +3,8 @@ import styled from "styled-components";
 import StyledArrowDown from "../../components/StyledArrow/StyledArrowDown";
 import TrasitionPages from "../../components/Transition/TrasitionPages";
 import {Card, Cabecalho, Foto, Rodape, RodapeH4, RodapeH5, CardContainer} from "../../components/Cards/Cards"
-import HomeIcons from "../../components/HomeIcons";
+import HomeIcons from "../../components/HomeIcons/HomeIcons";
+import MyFooter from "../../components/Footer/MyFooter";
 
 
 
@@ -161,6 +162,7 @@ const Home = () => {
           </Card>
         </CardContainer>
       </AboutSection>
+      <MyFooter/>
       </TrasitionPages>
   );
 };

@@ -1,4 +1,4 @@
-
+//Aqui fica os conteúdos do CardSwiper, ele é importado no Swiper.jsx
 
 import ImagemDengue from "../../imagens/dengue.png";
 import ImagemGripe from "../../imagens/gripe.png"

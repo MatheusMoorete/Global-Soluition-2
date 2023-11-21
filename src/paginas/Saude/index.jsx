@@ -3,7 +3,7 @@ import {
   PageContainer,
   StyledTitle,
   TitleContainer,
-} from "../../components/StyledBasics/style";
+} from "../../components/StyledBasics/StyleBasics";
 import { FaExternalLinkAlt } from "react-icons/fa"; 
 
 

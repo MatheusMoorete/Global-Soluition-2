@@ -1,35 +1,26 @@
+//Styled Components e Logica do Footer do site, deixei os Styled Components no mesmo arquivo pq são poucos
+
 import React from 'react';
 import styled from 'styled-components';
 import { FaArrowUp } from 'react-icons/fa'; 
 
+
 const FooterContainer = styled.footer`
+  display: flex ;
+  align-items: center;
+  justify-content: center;
   background-color: #333333;
   padding: 1.7rem 0;
 `;
 
-const FooterText = styled.div`
-  font-size: 1.3rem;
-  color: darken($white-color, 30%);
-  a {
-    font-size: 1.3rem;
-    color: darken($white-color, 25%);
-    transition: all 0.2s ease-in-out;
-    display: inline-block;
-    &:hover,
-    &:active {
-      color: $primary-color;
-    }
-  }
-`;
-
 const BackToTop = styled.div`
-  i {
-    color: #ffffff; // Cor da seta para cima
-    margin: 2rem 0 $default-font-size;
+    svg {
+    cursor: pointer;
+    color: #ffffff ; 
     transition: all 200ms ease;
 
     &:hover {
-      transform: translateY(-2px);
+      transform: translateY(-5px);
     }
   }
 `;
@@ -43,13 +34,11 @@ const MyFooter = () => {
   };
 
   return (
+    
     <FooterContainer>
       <BackToTop>
         <FaArrowUp onClick={scrollToTop} />
       </BackToTop>
-      <FooterText>
-        <a href="#" onClick={scrollToTop}>Clique para voltar ao topo</a>
-      </FooterText>
     </FooterContainer>
   );
 };
