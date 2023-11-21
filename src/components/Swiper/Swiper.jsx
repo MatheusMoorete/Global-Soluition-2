@@ -36,7 +36,7 @@ function MySwiper({ cards }) {
 
   useEffect(() => {
     console.log("Refs:", prevRef.current, nextRef.current);
-  }, []); // Verificar as refs quando o componente é montado
+  }, []); 
 
   return (
     <>
@@ -48,8 +48,8 @@ function MySwiper({ cards }) {
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log("Swiper initialized:", swiper)}
           navigation={{
-            prevEl: prevRef.current,
-            nextEl: nextRef.current,
+            prevEl: ".swiper-button-prev",
+            nextEl: ".swiper-button-next",
           }}
           loop={true}
           mousewheel={true}

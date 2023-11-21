@@ -6,13 +6,13 @@ export const Container = styled.div`
   min-height: 200px;
   height: min-content;
   border-radius: 15px;
-  padding: 20px;
+  padding: 25px;
   box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
   margin: 100px auto; 
 `;
 export const ContainerQuiz = styled.div`
   max-width: 100%;
-  margin: 170px auto 0; 
+  margin: 150px auto 0; 
   background-color:#363062;
   padding: 100px; 
   color: #fff;;

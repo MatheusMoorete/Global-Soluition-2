@@ -22,7 +22,7 @@ const IconsHomeDiv = styled.div`
   }
 `;
 
-const SocialIcons = ({ linkedinUrl, githubUrl }) => {
+const HomeIcons = ({ linkedinUrl, githubUrl }) => {
   const [linkedinColor, setLinkedinColor] = useState("#4D4C7D"); // LinkedIn color
   const [githubColor, setGithubColor] = useState("#4D4C7D"); // GitHub color
 
@@ -54,4 +54,4 @@ const SocialIcons = ({ linkedinUrl, githubUrl }) => {
   );
 };
 
-export default SocialIcons;
+export default HomeIcons;
