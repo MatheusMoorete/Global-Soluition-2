@@ -41,7 +41,7 @@ export const Rodape = styled.div`
 `;
 
 export const RodapeH4 = styled.h4`
-  color: #3a525f;
+  color: #363062;
   font-size: 18px;
   line-height: 22px;
   font-weight: bold;
@@ -50,7 +50,7 @@ export const RodapeH4 = styled.h4`
 export const RodapeH5 = styled.h5`
   font-size: 18px;
   line-height: 22px;
-  color: #8399a5;
+  color: #4D4C7D;
   padding: 0 16px;
   display: flex;
   align-items: center; /* Alinha o ícone com o texto */
