@@ -26,15 +26,7 @@ const StyledSection = styled.div`
     justify-content: center;
     align-items: center;
     color: white;
-  }
-
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.242);
   }
   button {
     margin: 10px; 
@@ -102,8 +94,8 @@ const HomeSection = () => {
           <button onClick={handleScrollToAbout}>Fale Conosco</button>
         </div>
       </div>
-      {/* <div className="overlay"></div> */}
     </StyledSection>
+    
   );
 };
 
