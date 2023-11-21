@@ -40,7 +40,7 @@ const TextSection = () => {
             <MarcaTexto>DCNT</MarcaTexto>{" "}
           </a>
           (doenças cardiovasculares, câncer, diabetes e doenças respiratórias
-          crônicas) representam um dos{" "}
+          crônicas),com uma ênfase nas <MarcaTexto>doenças cardivasculares</MarcaTexto>, representam um dos{" "}
           <MarcaTexto>principais desafios de saúde pública</MarcaTexto>, tanto
           pela alta prevalência como pela rapidez com que adquiriram destaque
           como principais causas de morte no Brasil e no mundo. As DCNT têm
@@ -74,14 +74,14 @@ const TextSection = () => {
           milhões) do que nos homens (R$ 730 milhões).
         </p>
         <p>
-          A prevenção e a promoção da saúde, assim como a vigilância e
+          A <MarcaTexto>prevenção e a promoção da saúde</MarcaTexto>, assim como a vigilância e
           assistência, integram as Diretrizes e Recomendações para o Cuidado
           Integral de Doenças Crônicas Não-Transmissíveis (DCNT). Segundo a
           Organização Mundial de Saúde (OMS), um conjunto de fatores de risco é
           responsável pela maioria das mortes por essas doenças. O{" "}
-          <MarcaTexto>
+          
             tabagismo, o consumo excessivo de bebidas alcoólicas, as dietas
-            inadequadas e a falta de atividade física
+            inadequadas e <MarcaTexto>principalmente o acesso de peso/obesidade.
           </MarcaTexto>{" "}
           representam 51% dos fatores de morte por DCNT. Todas estão
           relacionadas ao estilo de vida. Ainda de acordo com a OMS, 23%
