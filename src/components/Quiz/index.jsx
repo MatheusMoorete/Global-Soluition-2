@@ -9,7 +9,8 @@ import {
   Pergunta,
   GrupoResposta,
   Resposta,
-  Button
+  Button,
+  ButtonReplay
 } from "./styles";
 import { Perguntas as PerguntasIniciais } from "../../data/perguntas";
 
@@ -44,45 +45,59 @@ export default function Quiz() {
 
   if (repeating) {
     reiniciarQuiz();
-    return null; // Ou qualquer lógica desejada quando estiver reiniciando
+    return null;
   }
 
+  const mensagemPontuacao = () => {
+    if (pontos === 1) {
+      return "Você fez apenas 1 ponto, porem não desista, releeia o texto e depois volte no quiz";
+    } else if (pontos === 2) {
+      return "Você fez apenas 2 pontos, porem não desista, releeia o texto e depois volte no quiz";
+    } else if (pontos === 3) {
+      return "Boa, você fez 3 pontos, mas caso queira fazer os 5, reinicie no botão";
+    } else if (pontos === 4) {
+      return "Boa, você fez 4 pontos, mas caso queira fazer os 5, reinicie no botão";
+    } else if (pontos === 5) {
+      return "Parabéns, você acertou todas e conseguiu os 5 pontos.";
+    }
+  };
+
   return (
-      <Container>
-        {showPontuacao ? (
-          <Pontuacao>
-            <span>Você fez {pontos} pontos</span>
-            <Button onClick={() => setRepeating(true)}>
-              <MdReplay /> Repeat
-            </Button>
-          </Pontuacao>
-        ) : (
-          <>
-            <InfoPerguntas>
-              <ContagemPerguntas>
-                <ContagemPerguntasSpan>Perguntas:</ContagemPerguntasSpan>
-              </ContagemPerguntas>
-              {perguntaAtual < todasPerguntas.length && (
-                <Pergunta>{todasPerguntas[perguntaAtual].pergunta}</Pergunta>
+    <Container>
+      {showPontuacao ? (
+        <Pontuacao>
+          <span>{mensagemPontuacao()}</span>
+          <ButtonReplay onClick={() => setRepeating(true)}>
+            <MdReplay />
+          </ButtonReplay>
+        </Pontuacao>
+      ) : (
+        <>
+          <InfoPerguntas>
+            <ContagemPerguntas>
+              <ContagemPerguntasSpan>Quiz</ContagemPerguntasSpan>
+            </ContagemPerguntas>
+            {perguntaAtual < todasPerguntas.length && (
+              <Pergunta>{todasPerguntas[perguntaAtual].pergunta}</Pergunta>
+            )}
+          </InfoPerguntas>
+          <Resposta>
+            {perguntaAtual < todasPerguntas.length &&
+              todasPerguntas[perguntaAtual].opcoesResposta.map(
+                (opcoesResposta) => (
+                  <GrupoResposta key={opcoesResposta.alternativa}>
+                    <span>{opcoesResposta.alternativa}</span>
+                    <Button
+                      onClick={() => proximaPergunta(opcoesResposta.correta)}
+                    >
+                      {opcoesResposta.resposta}
+                    </Button>
+                  </GrupoResposta>
+                )
               )}
-            </InfoPerguntas>
-            <Resposta>
-              {perguntaAtual < todasPerguntas.length &&
-                todasPerguntas[perguntaAtual].opcoesResposta.map(
-                  (opcoesResposta) => (
-                    <GrupoResposta key={opcoesResposta.alternativa}>
-                      <span>{opcoesResposta.alternativa}</span>
-                      <Button
-                        onClick={() => proximaPergunta(opcoesResposta.correta)}
-                      >
-                        {opcoesResposta.resposta}
-                      </Button>
-                    </GrupoResposta>
-                  )
-                )}
-            </Resposta>
-          </>
-        )}
-      </Container>
+          </Resposta>
+        </>
+      )}
+    </Container>
   );
 }

@@ -23,6 +23,7 @@ export const Pontuacao = styled.div`
   display: flex;
   min-height: 200px;
   font-size: 24px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
@@ -40,16 +41,16 @@ export const ContagemPerguntas = styled.div`
 `;
 
 export const ContagemPerguntasSpan = styled.span`
-  font-size: 28px;
+  font-size: 35px;
 `;
 
 export const Pergunta = styled.div`
-  margin-bottom: 12px;
+  margin-bottom: 25px;
 `;
 
 export const GrupoResposta = styled.div`
   display: flex;
-  flex: 1 1 200px;
+  flex: 1 1 300px;
   justify-content: center;
   align-items: baseline;
 `;
@@ -65,10 +66,27 @@ export const Button = styled.button`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 90%;
   font-size: 16px;
   color: #fff;
-  background-color: #F99417;
+  background-color: #BA5C12;
+  border-radius: 8px;
+  padding: 8px;
+  border: 3px solid #3E2F5B;
+  cursor: pointer;
+  margin: 0 12px 10px;
+
+  &:hover {
+    background-color: #261132;
+  }
+`;
+export const ButtonReplay = styled.button`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  color: #fff;
+  background-color: #BA5C12;
   border-radius: 8px;
   padding: 8px;
   border: 3px solid #3E2F5B;

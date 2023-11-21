@@ -1,48 +1,49 @@
 export const Perguntas = [
     {
-      pergunta: 'Qual desses é considerado fator de risco para às DCNT?',
+      pergunta: 'Qual é a doença crônica não transmissível (DCNT) com mais preválencia do Brasil?',
       opcoesResposta: [
-        { resposta: 'Tabagismo', correta: true, alternativa: 'A)' },
-        { resposta: 'Atividade física', correta: false, alternativa: 'B)' },
-        { resposta: 'Água', correta: false, alternativa: 'C)' },
-        { resposta: 'Agua', correta: false, alternativa: 'D)' },
+      { resposta: 'Doenças cardiovasculares', correta: true, alternativa: 'A)' },
+      { resposta: 'Gripe e resfriado', correta: false, alternativa: 'B)' },
+      { resposta: 'Doenças infecciosas', correta: false, alternativa: 'C)' },
+      { resposta: 'Doenças genéticas', correta: false, alternativa: 'D)' },
       ]
     },
     {
-      pergunta: 'Qual mês estamos?',
+      pergunta: 'Qual porcentagem da mortalidade no Brasil é atribuída às Doenças Crônicas Não Transmissíveis (DCNT)?',
       opcoesResposta: [
-        { resposta: 'Janeiro', correta: false, alternativa: 'A)' },
-        { resposta: 'Fevereiro', correta: false, alternativa: 'B)' },
-        { resposta: 'Junho', correta: false, alternativa: 'C)' },
-        { resposta: 'Maio', correta: true, alternativa: 'D)' },
+      { resposta: '51%', correta: false, alternativa: 'A)' },
+      { resposta: '72%', correta: true, alternativa: 'B)' },
+      { resposta: '23%', correta: false, alternativa: 'C)' },
+      { resposta: '19%', correta: false, alternativa: 'D)' },
       ]
     },
     {
-      pergunta: 'Quem é o autor de "Dom Quixote"?',
+      pergunta: 'Entre os fatores de risco, existe um mais prevalente no Brasil que contribui significativamente para a persistência das DCNT, qual seria esse fator?',
       opcoesResposta: [
-        { resposta: 'Miguel de Cervantes', correta: true, alternativa: 'A)' },
-        { resposta: 'William Shakespeare', correta: false, alternativa: 'B)' },
-        { resposta: 'Charles Dickens', correta: false, alternativa: 'C)' },
-        { resposta: 'Jane Austen', correta: false, alternativa: 'D)' },
+      { resposta: 'Consumo excessivo de água', correta: false, alternativa: 'A)' },
+      { resposta: 'Falta de assistência médica', correta: false, alternativa: 'B)' },
+      { resposta: 'Dieta inadequada (Obesidade)', correta: true, alternativa: 'C)' },
+      { resposta: 'Exposição exessiva ao sol', correta: false, alternativa: 'D)' },
+      
       ]
     },
     {
-      pergunta: 'Qual é o maior planeta do nosso sistema solar?',
+      pergunta: 'Quanto foi o gasto anual direto com doenças crônicas não transmissíveis no Brasil em 2019?',
       opcoesResposta: [
-        { resposta: 'Terra', correta: false, alternativa: 'A)' },
-        { resposta: 'Marte', correta: false, alternativa: 'B)' },
-        { resposta: 'Júpiter', correta: true, alternativa: 'C)' },
-        { resposta: 'Vênus', correta: false, alternativa: 'D)' },
+      { resposta: 'R$ 1,5 bilhão', correta: false, alternativa: 'A)' },
+      { resposta: 'R$ 6,8 bilhões', correta: true, alternativa: 'B)' },
+      { resposta: 'R$ 762 milhões', correta: false, alternativa: 'C)' },
+      { resposta: 'R$ 730 milhões', correta: false, alternativa: 'D)' },
       ]
     },
     {
-      pergunta: 'Em que ano começou a Primeira Guerra Mundial?',
+      pergunta: 'Qual é a principal recomendação para o controle das Doenças Crônicas Não Transmissíveis no texto?',
       opcoesResposta: [
-        { resposta: '1912', correta: false, alternativa: 'A)' },
-        { resposta: '1914', correta: true, alternativa: 'B)' },
-        { resposta: '1916', correta: false, alternativa: 'C)' },
-        { resposta: '1918', correta: false, alternativa: 'D)' },
+      { resposta: 'Aumento dos gastos hospitalares', correta: false, alternativa: 'A)' },
+      { resposta: 'Foco na prevenção e promoção da saúde', correta: true, alternativa: 'B)' },
+      { resposta: 'Exposição a alimentos ultraprocessados', correta: false, alternativa: 'C)' },
+      { resposta: 'Redução dos recursos para assistência médica', correta: false, alternativa: 'D)' },
       ]
-    },
+      }
   ];
   
