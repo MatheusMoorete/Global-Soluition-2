@@ -61,12 +61,12 @@ const Home = () => {
       <div>
         <HomeSection/>
         <StyledH1 id="video-section">
-          <strong>Nome do Projeto</strong>
+          <strong>Vídeo Pitch</strong>
         </StyledH1>
         <StyledDiv>
           <iframe
-            width="960"
-            height="480"
+            width="1280"
+            height="620"
             src="https://www.youtube.com/embed/cm2M-qER3QM?si=20mFlG1Yl5FAi-tJ"
             title="YouTube video player"
             frameBorder="0"

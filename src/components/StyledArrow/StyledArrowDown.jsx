@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const StyledArrow = styled(motion.div)`
  position: absolute;
  left: 50%;
- top: 33rem;
+ top: 40rem;
  transform: translateX(-50%);
  height: 50px;
  width: 30px;
