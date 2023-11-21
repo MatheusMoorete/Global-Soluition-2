@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 export const StyledNavbar = styled(Navbar)`
   background-color: #363062;
-  box-shadow: 0px 4px 4px rgba(14, 14, 14, 0.245);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   font-family: 'Rubik', sans-serif;
 `;
 

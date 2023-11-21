@@ -34,6 +34,7 @@ const AboutSection = styled.div`
   background-color: #363062;
   padding: 100px;
   color: #fff;
+  
 `;
 
 const Home = () => {
