@@ -43,18 +43,36 @@ const StyledSection = styled.div`
     background-color: transparent;
     color: white;
     border: 2px solid;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
     cursor: pointer;
     transition: background-color 0.3s ease; 
 
     &:hover {
-      background-color: #333; 
+      background-color: #445d48ac; 
     }
     .play-icon {
-      margin-left: 8px; /* Espaçamento entre o ícone e o texto */
+      margin-left: 8px; 
     }
   }
 `;
+
+const TitleStyle = styled.h1`
+    font-size: 10rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-family: 'Alegreya', serif;
+`
+const SloganStyle = styled.p`
+  font-size: 1.5rem;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-family: 'Alegreya', serif;
+
+`;
+const StrongCor = styled.strong`
+    color: #445D48;
+`
 
 const HomeSection = () => {
     const handleScrollToVideoSection = () => {
@@ -70,12 +88,12 @@ const HomeSection = () => {
     <StyledSection>
       <video src={VideoFundo} autoPlay loop muted />
       <div className="content">
-        <h1>
-          <strong>BioSafe</strong>
-          <p>Essa pagina é só um teste</p>
-        </h1>
+        <TitleStyle>
+          <StrongCor>Bio</StrongCor>Safe
+        </TitleStyle>
+        <SloganStyle>O que você está esperando?</SloganStyle>
         <div>
-        <button onClick={handleScrollToVideoSection}>
+        <button onClick={handleScrollToVideoSection} className="assista-ao-pitch">
             Assista ao pitch
             <span className="play-icon">
               <FaPlayCircle />
