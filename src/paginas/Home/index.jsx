@@ -2,12 +2,18 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import StyledArrowDown from "../../components/StyledArrow/StyledArrowDown";
 import TrasitionPages from "../../components/Transition/TrasitionPages";
-import {Card, Cabecalho, Foto, Rodape, RodapeH4, RodapeH5, CardContainer} from "../../components/Cards/Cards"
+import {
+  Card,
+  Cabecalho,
+  Foto,
+  Rodape,
+  RodapeH4,
+  RodapeH5,
+  CardContainer,
+} from "../../components/Cards/Cards";
 import HomeIcons from "../../components/HomeIcons/HomeIcons";
 import MyFooter from "../../components/Footer/MyFooter";
-
-
-
+import HomeSection from "../../components/HomeSection/HomeSection";
 
 const StyledDiv = styled.div`
   display: flex;
@@ -26,13 +32,9 @@ const StyledH1 = styled.h1`
 
 const AboutSection = styled.div`
   background-color: #363062;
-  padding: 100px; 
+  padding: 100px;
   color: #fff;
 `;
-
-
-
-
 
 const Home = () => {
   const [isArrowFixed, setIsArrowFixed] = useState(false);
@@ -57,7 +59,8 @@ const Home = () => {
   return (
     <TrasitionPages>
       <div>
-        <StyledH1>
+        <HomeSection/>
+        <StyledH1 id="video-section">
           <strong>Nome do Projeto</strong>
         </StyledH1>
         <StyledDiv>
@@ -73,25 +76,22 @@ const Home = () => {
           <StyledArrowDown onClick={handleScrollToAbout} fixed={isArrowFixed} />
         </StyledDiv>
       </div>
-      
 
       <AboutSection id="aboutSection">
         <h2>Fale Conosco</h2>
         <br></br>
         <br></br>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-          cupiditate perspiciatis quasi officia consectetur eum in modi totam
-          quos sunt obcaecati ipsum esse, iste deleniti architecto est facilis
-          eligendi dolores!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-          cupiditate perspiciatis quasi officia consectetur eum in modi totam
-          quos sunt obcaecati ipsum esse, iste deleniti architecto est facilis
-          eligendi dolores!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-          cupiditate perspiciatis quasi officia consectetur eum in modi totam
-          quos sunt obcaecati ipsum esse, iste deleniti architecto est facilis
-          eligendi dolores!
+          Exploramos o futuro da saúde através da inovação e tecnologia, destacando
+          a importância da prevenção, automação e precisão nos cuidados médicos.
+          . Como estudantes da FIAP, estamos tendo a oportunidade de
+          imaginar soluções inovadoras para moldar um mun. Este
+          desafio reflete nos Objetivos de Desenvolvimento Sustentável (ODS 3)
+          da ONU, promovendo acesso à saúde de qualidade e bem-estar para todos.
+          Em parceria com a Hapvida NotreDame Intermédica, a maior operadora de
+          saúde do Brasil, criamos uma solução que pode auxiliar
+          no enfentamento desse desafio e construir um futuro mais
+          brilhante na área da saúde.
         </p>
         <CardContainer>
           <Card>
@@ -103,9 +103,11 @@ const Home = () => {
             </Cabecalho>
             <Rodape>
               <RodapeH4>Matheus Morete</RodapeH4>
-              <RodapeH5>RM12345
-              </RodapeH5>
-              <HomeIcons linkedinUrl="https://www.linkedin.com/in/seu-nome" githubUrl="https://github.com/seu-nome"/>
+              <RodapeH5>RM12345</RodapeH5>
+              <HomeIcons
+                linkedinUrl="https://www.linkedin.com/in/seu-nome"
+                githubUrl="https://github.com/seu-nome"
+              />
             </Rodape>
           </Card>
           <Card>
@@ -118,7 +120,10 @@ const Home = () => {
             <Rodape>
               <RodapeH4>Matheus Morete</RodapeH4>
               <RodapeH5>RM12345</RodapeH5>
-              <HomeIcons linkedinUrl="https://www.linkedin.com/in/seu-nome" githubUrl="https://github.com/seu-nome"/>
+              <HomeIcons
+                linkedinUrl="https://www.linkedin.com/in/seu-nome"
+                githubUrl="https://github.com/seu-nome"
+              />
             </Rodape>
           </Card>
           <Card>
@@ -131,7 +136,10 @@ const Home = () => {
             <Rodape>
               <RodapeH4>Matheus Morete</RodapeH4>
               <RodapeH5>RM12345</RodapeH5>
-              <HomeIcons linkedinUrl="https://www.linkedin.com/in/seu-nome" githubUrl="https://github.com/seu-nome"/>
+              <HomeIcons
+                linkedinUrl="https://www.linkedin.com/in/seu-nome"
+                githubUrl="https://github.com/seu-nome"
+              />
             </Rodape>
           </Card>
           <Card>
@@ -144,7 +152,10 @@ const Home = () => {
             <Rodape>
               <RodapeH4>Matheus Morete</RodapeH4>
               <RodapeH5>RM12345</RodapeH5>
-              <HomeIcons linkedinUrl="https://www.linkedin.com/in/seu-nome" githubUrl="https://github.com/seu-nome"/>
+              <HomeIcons
+                linkedinUrl="https://www.linkedin.com/in/seu-nome"
+                githubUrl="https://github.com/seu-nome"
+              />
             </Rodape>
           </Card>
           <Card>
@@ -157,13 +168,16 @@ const Home = () => {
             <Rodape>
               <RodapeH4>Matheus Morete</RodapeH4>
               <RodapeH5>RM12345</RodapeH5>
-              <HomeIcons linkedinUrl="https://www.linkedin.com/in/seu-nome" githubUrl="https://github.com/seu-nome"/>
+              <HomeIcons
+                linkedinUrl="https://www.linkedin.com/in/seu-nome"
+                githubUrl="https://github.com/seu-nome"
+              />
             </Rodape>
           </Card>
         </CardContainer>
       </AboutSection>
-      <MyFooter/>
-      </TrasitionPages>
+      <MyFooter />
+    </TrasitionPages>
   );
 };
 
