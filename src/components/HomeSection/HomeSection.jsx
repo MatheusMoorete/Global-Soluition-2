@@ -32,24 +32,27 @@ const StyledSection = styled.div`
     
   }
   button {
-    margin: 10px; 
-    padding: 10px 20px; 
-    font-size: 16px;
-    background-color: transparent;
-    color: white;
-    border: 2px solid;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  cursor: pointer;
+  overflow: hidden;
 
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
-
-    &:hover {
-      background-color: #445d48ac; 
-    }
-    .play-icon {
-      margin-left: 8px; 
-    }
+  &:hover {
+    background: linear-gradient(to right, transparent 50%, #363062 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.34s ease; 
+    background-position: right; 
   }
+
+  .play-icon {
+    margin-left: 8px;
+  }
+}
 `;
 
 const TitleStyle = styled.h1`

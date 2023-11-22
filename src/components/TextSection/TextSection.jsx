@@ -8,7 +8,7 @@ import {
 import { FaExternalLinkAlt } from "react-icons/fa";
 import styled from "styled-components";
 import Buttons from "../../components/Buttons/Buttons";
-import MyFooter from '../Footer/MyFooter';
+
 
 const MarcaTexto = styled.strong`
   background-color: #fdd275;

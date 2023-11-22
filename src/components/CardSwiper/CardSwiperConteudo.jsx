@@ -4,6 +4,8 @@ import ImagemDengue from "../../imagens/dengue.png";
 import ImagemGripe from "../../imagens/gripe.png"
 import ImagemHiv from "../../imagens/hiv.png"
 import ImagemDiarreica from "../../imagens/Diarreica.png"
+import ImagemTuberculose from "../../imagens/tuberculose.png"
+import ImagemCovid from "../../imagens/coronavírus.png"
 
 export const CardSwiperConteudo = [
     {
@@ -15,8 +17,7 @@ export const CardSwiperConteudo = [
     },
     {
       title: "Tuberculose",
-      image:
-        "https://www.prosaude.org.br/wp-content/uploads/2021/03/Tuberculose-1.jpg",
+      image: ImagemTuberculose,
       description:
         " Tuberculose é causada pela bactéria Mycobacterium tuberculosis . A transmissão ocorre por via aérea, através de gotículas expelidas durante a tosse ou espirro de uma pessoa infectada. ",
       link: "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tuberculose", // Adicionado o link aqui
@@ -50,4 +51,12 @@ export const CardSwiperConteudo = [
         "As doenças diarreicas agudas (DDA) podem ser causadas por vários microrganismos infecciosos (bactérias, vírus e outros parasitas, como os protozoários) que geram a gastroenterite que afeta o estômago e o intestino.",
         link: "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda",
     },
+    {
+      title: "SARS",
+      image: ImagemCovid,
+      description:
+        "É o vírus que causa a síndrome respiratória aguda grave. Os sintomas mais comuns são febre, tosse seca e cansaço, entre outros. O corona vírus de 2019 é ralacionado com a SARS, sendo ele uma váriação do SARS CoV-1",
+        link: "https://pt.wikipedia.org/wiki/SARS-CoV",
+    }
+    
   ];
