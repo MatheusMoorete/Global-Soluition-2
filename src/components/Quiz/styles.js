@@ -9,14 +9,14 @@ export const Container = styled.div`
   border-radius: 0.9375rem;
   padding: 2.5625rem;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 0.125rem 0.25rem, rgba(0, 0, 0, 0.3) 0px 0.4375rem 0.8125rem -0.1875rem, rgba(0, 0, 0, 0.2) 0px -0.1875rem 0px inset;
-  margin: 5rem auto; 
+  margin: 3rem auto; 
 `;
 
 export const ContainerQuiz = styled.div`
   max-width: 100%;
   margin: 8.75rem auto 0; 
   background-color: #363062;
-  padding: 3.125rem; 
+  padding: 1.125rem; 
   color: #fff;
 `;
 

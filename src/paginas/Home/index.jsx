@@ -32,7 +32,7 @@ const StyledH1 = styled.h1`
 
 const AboutSection = styled.div`
   background-color: #363062;
-  padding: 4.18rem;
+  padding: 2rem;
   color: #fff;
   
 `;

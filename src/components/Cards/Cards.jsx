@@ -13,6 +13,7 @@ export const CardContainer = styled.div`
 
 export const Card = styled.div`
   width: 15.3rem;
+  padding: 10px;
 `;
 
 export const Cabecalho = styled.div`
@@ -22,11 +23,11 @@ export const Cabecalho = styled.div`
 `;
 
 export const Foto = styled.img`
-  width: 5.65rem;
-  border-radius: 50%;
+  width: 5rem;
+  border-radius: 60%;
   position: relative;
-  bottom: -3.125rem;
-  right: -5rem;
+  bottom: -2.7rem;
+  right: -4.5rem;
 `;
 
 export const Rodape = styled.div`
