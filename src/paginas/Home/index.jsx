@@ -97,14 +97,14 @@ const Home = () => {
             <Cabecalho>
               <Foto
                 src="https://github.com/matheusmoorete.png"
-                alt="Foto da Pessoa 1"
+                alt="Foto Matheus"
               />
             </Cabecalho>
             <Rodape>
               <RodapeH4>Matheus Morete</RodapeH4>
-              <RodapeH5>RM12345</RodapeH5>
+              <RodapeH5>RM552428</RodapeH5>
               <HomeIcons
-                linkedinUrl="https://www.linkedin.com/in/seu-nome"
+                linkedinUrl="https://www.linkedin.com/in/matheus-moorete/"
                 githubUrl="https://github.com/seu-nome"
               />
             </Rodape>
@@ -113,14 +113,14 @@ const Home = () => {
             <Cabecalho>
               <Foto
                 src="https://github.com/matheusmoorete.png"
-                alt="Foto da Pessoa 1"
+                alt="Foto Lucas"
               />
             </Cabecalho>
             <Rodape>
-              <RodapeH4>Matheus Morete</RodapeH4>
-              <RodapeH5>RM12345</RodapeH5>
+              <RodapeH4>Lucas Dalmas</RodapeH4>
+              <RodapeH5>RM551178</RodapeH5>
               <HomeIcons
-                linkedinUrl="https://www.linkedin.com/in/seu-nome"
+                linkedinUrl="https://www.linkedin.com/in/lucas-dalmas-984976270/"
                 githubUrl="https://github.com/seu-nome"
               />
             </Rodape>
@@ -129,14 +129,14 @@ const Home = () => {
             <Cabecalho>
               <Foto
                 src="https://github.com/matheusmoorete.png"
-                alt="Foto da Pessoa 1"
+                alt="Foto Oliver"
               />
             </Cabecalho>
             <Rodape>
-              <RodapeH4>Matheus Morete</RodapeH4>
-              <RodapeH5>RM12345</RodapeH5>
+              <RodapeH4>Oliver Freire Huth</RodapeH4>
+              <RodapeH5>RM551424</RodapeH5>
               <HomeIcons
-                linkedinUrl="https://www.linkedin.com/in/seu-nome"
+                linkedinUrl="https://www.linkedin.com/in/oliver-freire-huth-49b913236/"
                 githubUrl="https://github.com/seu-nome"
               />
             </Rodape>
@@ -145,14 +145,14 @@ const Home = () => {
             <Cabecalho>
               <Foto
                 src="https://github.com/matheusmoorete.png"
-                alt="Foto da Pessoa 1"
+                alt="Foto Vinicius"
               />
             </Cabecalho>
             <Rodape>
-              <RodapeH4>Matheus Morete</RodapeH4>
-              <RodapeH5>RM12345</RodapeH5>
+              <RodapeH4>Vinicius Eugênio</RodapeH4>
+              <RodapeH5>RM98064</RodapeH5>
               <HomeIcons
-                linkedinUrl="https://www.linkedin.com/in/seu-nome"
+                linkedinUrl="https://www.linkedin.com/in/viniciuseug%C3%AAnio0402/"
                 githubUrl="https://github.com/seu-nome"
               />
             </Rodape>
@@ -161,14 +161,14 @@ const Home = () => {
             <Cabecalho>
               <Foto
                 src="https://github.com/matheusmoorete.png"
-                alt="Foto da Pessoa 1"
+                alt="Foto João"
               />
             </Cabecalho>
             <Rodape>
-              <RodapeH4>Matheus Morete</RodapeH4>
-              <RodapeH5>RM12345</RodapeH5>
+              <RodapeH4>João Arthur Pajaro</RodapeH4>
+              <RodapeH5>RM551272</RodapeH5>
               <HomeIcons
-                linkedinUrl="https://www.linkedin.com/in/seu-nome"
+                linkedinUrl="https://www.linkedin.com/in/jo%C3%A3o-pajaro-34083b289/?trk=contact-info"
                 githubUrl="https://github.com/seu-nome"
               />
             </Rodape>
