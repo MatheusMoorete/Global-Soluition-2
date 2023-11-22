@@ -19,6 +19,7 @@ const StyledNavigation = styled.div`
     margin-top: -15px;
     z-index: 10;
     cursor: pointer;
+    
   }
 
   .swiper-button-prev {
@@ -43,7 +44,7 @@ function MySwiper({ cards }) {
       <StyledNavigation>
         <Swiper
           modules={[Mousewheel, Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={5}
+          spaceBetween={8}
           slidesPerView={4}
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log("Swiper initialized:", swiper)}
