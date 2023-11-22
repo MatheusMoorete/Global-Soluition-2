@@ -2,7 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 import { FaPlayCircle } from "react-icons/fa";
-import VideoFundo from "../../assets/pexels-cottonbro-5310966 (2160p).mp4";
+import VideoHomeSection from "../../assets/VideoHomeSection.mp4";
 
 const StyledSection = styled.div`
   width: 100%;
@@ -84,7 +84,7 @@ const HomeSection = () => {
 
   return (
     <StyledSection>
-      <video src={VideoFundo} autoPlay loop muted />
+      <video src={VideoHomeSection} autoPlay loop muted />
       <div className="content">
         <TitleStyle>
           <StrongCor>Bio</StrongCor>Safe

@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { FaArrowUp } from 'react-icons/fa'; 
 
 
+
 const FooterContainer = styled.footer`
   display: flex ;
   align-items: center;

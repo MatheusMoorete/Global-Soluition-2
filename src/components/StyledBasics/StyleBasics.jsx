@@ -32,3 +32,6 @@ export const TwoColumnContainer = styled.div`
   justify-content: space-between;
 
 `;
+export const MarcaTexto = styled.strong`
+  background-color: #fdd275;
+`;
