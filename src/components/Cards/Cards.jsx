@@ -7,7 +7,7 @@ import { FaLinkedin } from 'react-icons/fa';
 export const CardContainer = styled.div`
   display: flex;
   justify-content: space-around;
-  margin: 100px 0;
+  margin: 60px 0;
   color: #e9ffc2;
 `;
 
@@ -22,7 +22,7 @@ export const Cabecalho = styled.div`
 `;
 
 export const Foto = styled.img`
-  width: 100px;
+  width: 90px;
   border-radius: 50%;
   position: relative;
   bottom: -50px;
@@ -53,9 +53,9 @@ export const RodapeH5 = styled.h5`
   color: #4D4C7D;
   padding: 0 16px;
   display: flex;
-  align-items: center; /* Alinha o ícone com o texto */
+  align-items: center; 
 `;
 
 export const LinkedInIcon = styled(FaLinkedin)`
-  margin-left: 8px; /* Adiciona espaço à esquerda do ícone para separá-lo do texto */
+  margin-left: 8px; 
 `;

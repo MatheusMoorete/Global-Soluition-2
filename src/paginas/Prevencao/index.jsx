@@ -2,6 +2,7 @@ import TextSection from "../../components/TextSection/TextSection";
 import QuizSection from "../../components/Quiz";
 import { ContainerQuiz } from "../../components/Quiz/styles";
 import MyFooter from "./../../components/Footer/MyFooter";
+import { StyledTitle, PageContainer } from "../../components/StyledBasics/StyleBasics";
 
 
 
@@ -9,9 +10,11 @@ const Tema3 = () => {
   return (
     <>
       <TextSection />
-      <ContainerQuiz id="quiz-section">
-        <br></br>
-        <h1>Cuidando da Saúde: Desafio DCNT</h1>
+  
+      <ContainerQuiz>
+        <br id="quiz-section"></br>
+        <PageContainer>
+        <StyledTitle>Cuidando da Saúde: Desafio DCNT</StyledTitle>
         <p>
           Bem-vindo ao quiz "Cuidando da Saúde: Desafio DCNT". Teste seus
           conhecimentos sobre a prevenção e tratamento de Doenças Crônicas Não
@@ -19,6 +22,7 @@ const Tema3 = () => {
           principais causas de mortalidade no Brasil e no mundo. Responda às
           perguntas com base nas informações fornecidas no texto.
         </p>
+        </PageContainer>
         <QuizSection />
       </ContainerQuiz>
       <MyFooter />

@@ -13,10 +13,9 @@ const StyledNavigation = styled.div`
   .swiper-button-prev,
   .swiper-button-next {
     position: absolute;
-    top: 50%;
-    width: 30px;
-    height: 30px;
-    margin-top: -15px;
+    top: 65%;
+    width: 20px;
+    height: 20px;
     z-index: 10;
     cursor: pointer;
     
