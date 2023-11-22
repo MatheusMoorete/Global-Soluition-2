@@ -5,6 +5,7 @@ import {
   TitleContainer,
 } from "../../components/StyledBasics/StyleBasics";
 import { FaExternalLinkAlt } from "react-icons/fa"; 
+import AccordionSection from "../../components/Accordion/Accordion";
 
 
 
@@ -26,7 +27,10 @@ const Tema4 = () => {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, corporis ipsum fugiat consequuntur nulla pariatur ipsam magni, vitae esse deserunt at quis dolore et natus? Vel deleniti modi nisi mollitia!Similique, corporis ipsum fugiat consequuntur nulla pariatur ipsam magni, vitae esse deserunt at quis dolore et natus? Vel deleniti modi nisi mollitiaSimilique, corporis ipsum fugiat consequuntur nulla pariatur ipsam magni, vitae esse deserunt at quis dolore et natus? Vel deleniti modi nisi mollitiaSimilique, corporis ipsum fugiat consequuntur nulla pariatur ipsam magni, vitae esse deserunt at quis dolore et natus? Vel deleniti modi nisi mollitiaSimilique, corporis ipsum fugiat consequuntur nulla pariatur ipsam magni, vitae esse deserunt at quis dolore et natus? Vel deleniti modi nisi mollitia
         </p>
+        <h4><strong>As dez propostas que visam a melhor a geral da saúde no Brasil</strong></h4>
+        <AccordionSection/>
       </PageContainer>
+      
 
     </TrasitionPages>
   );
