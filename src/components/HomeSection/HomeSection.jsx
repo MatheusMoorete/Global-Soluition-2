@@ -6,7 +6,7 @@ import VideoHomeSection from "../../assets/VideoHomeSection.mp4";
 
 const StyledSection = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   position: relative;
   overflow: hidden;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;

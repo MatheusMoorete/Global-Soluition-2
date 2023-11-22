@@ -32,7 +32,7 @@ const StyledH1 = styled.h1`
 
 const AboutSection = styled.div`
   background-color: #363062;
-  padding: 70px;
+  padding: 4.18rem;
   color: #fff;
   
 `;
@@ -59,15 +59,14 @@ const Home = () => {
 
   return (
     <TrasitionPages>
-      <div>
         <HomeSection/>
         <StyledH1 id="video-section">
 
         </StyledH1>
         <StyledDiv>
           <iframe
-            width="1200"
-            height="600"
+            width="1100"
+            height="550"
             src="https://www.youtube.com/embed/cm2M-qER3QM?si=20mFlG1Yl5FAi-tJ"
             title="YouTube video player"
             frameBorder="0"
@@ -76,7 +75,6 @@ const Home = () => {
           ></iframe>
           <StyledArrowDown onClick={handleScrollToAbout} fixed={isArrowFixed} />
         </StyledDiv>
-      </div>
 
       <AboutSection id="aboutSection">
         <h2>Fale Conosco</h2>

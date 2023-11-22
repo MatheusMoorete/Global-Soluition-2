@@ -6,12 +6,12 @@ import { motion } from 'framer-motion';
 const StyledArrow = styled(motion.div)`
  position: absolute;
  left: 50%;
- top: 38rem;
+ top: 35.5rem;
  transform: translateX(-50%);
- height: 50px;
- width: 30px;
+ height: 3.125rem;
+ width: 2rem;
  border: 2px solid #000000;
- border-radius: 50px;
+ border-radius: 3.125rem;
  cursor: pointer;
  &::before,
  &::after {
