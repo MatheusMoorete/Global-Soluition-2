@@ -6,6 +6,7 @@ import ImagemHiv from "../../imagens/hiv.png"
 import ImagemDiarreica from "../../imagens/Diarreica.png"
 import ImagemTuberculose from "../../imagens/tuberculose.png"
 import ImagemCovid from "../../imagens/coronavírus.png"
+import ImamgemHepatite from "../../imagens/hepatite.png"
 
 export const CardSwiperConteudo = [
     {
@@ -25,7 +26,7 @@ export const CardSwiperConteudo = [
     {
       title: "Hepatites Virais",
       image:
-        "https://i.em.com.br/z-xJI8OVxpt39hYnqsjWwOOocBw=/750x0/smart/imgsapp.em.com.br/app/noticia_127983242361/2023/05/30/1500485/ilustracao-de-um-figado-humano_1_50519.png",
+        ImamgemHepatite,
       description:
         "As Hepatites A, B e C são inflamações no fígado causadas por diferentes tipos de vírus. Os tipos B e C podem causar doenças graves como cirrose e câncer e todos os tipos de hepatite podem levar à morte.",
       link: "http://antigo.aids.gov.br/pt-br/publico-geral/hv/o-que-sao-hepatites-virais", // Adicionado o link aqui
