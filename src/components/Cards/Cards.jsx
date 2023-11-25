@@ -23,11 +23,12 @@ export const Cabecalho = styled.div`
 `;
 
 export const Foto = styled.img`
-  width: 5rem;
-  border-radius: 60%;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
   position: relative;
   bottom: -2.7rem;
-  right: -4.5rem;
+  right: -4rem;
 `;
 
 export const Rodape = styled.div`

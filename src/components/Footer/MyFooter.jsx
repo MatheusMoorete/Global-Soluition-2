@@ -1,9 +1,8 @@
 //Styled Components e Logica do Footer do site, deixei os Styled Components no mesmo arquivo pq são poucos
 
-import React from 'react';
 import styled from 'styled-components';
-import { FaArrowUp } from 'react-icons/fa'; 
 
+import Logo from "../../assets/biosafe fundo transparente otimizado.png"
 
 
 const FooterContainer = styled.footer`
@@ -11,20 +10,18 @@ const FooterContainer = styled.footer`
   align-items: center;
   justify-content: center;
   background-color: #333333;
-  padding: 1.7rem 0;
+  flex-direction: column;
 `;
 
-const BackToTop = styled.div`
-    svg {
-    cursor: pointer;
-    color: #ffffff ; 
-    transition: all 200ms ease;
-
-    &:hover {
-      transform: translateY(-5px);
-    }
-  }
-`;
+const ImagemLogo = styled.img`
+  height: 4rem;
+  cursor: pointer;
+`
+const TextoFooter = styled.p`
+  color: #F3F3F3;
+  font-size: 13px;
+  margin-top: -15px;
+`
 
 const MyFooter = () => {
   const scrollToTop = () => {
@@ -37,9 +34,8 @@ const MyFooter = () => {
   return (
     
     <FooterContainer>
-      <BackToTop>
-        <FaArrowUp onClick={scrollToTop} />
-      </BackToTop>
+      <ImagemLogo src={Logo} alt="" onClick={scrollToTop}/>
+      <TextoFooter>Copyright &copy; 2023 BioSafe, Inc.</TextoFooter>
     </FooterContainer>
   );
 };

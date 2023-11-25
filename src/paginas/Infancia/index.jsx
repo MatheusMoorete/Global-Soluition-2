@@ -10,14 +10,17 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import MyFooter from "../../components/Footer/MyFooter";
 import BarCharts from "../../components/BarCharts/BarCharts";
 import styled from "styled-components";
+import ButttonScrollToTop from "../../components/ButttonScrollToTop/ButttonScrollToTop";
 
 const MarcaTexto = styled.strong`
   background-color: #fdd275;
 `;
 
 const Tema1 = () => {
+  const scrollThreshold = 100;
   return (
     <TrasitionPages>
+      <ButttonScrollToTop scrollThreshold={scrollThreshold} />
       <PageContainer>
         <TitleContainer>
           <StyledTitle>

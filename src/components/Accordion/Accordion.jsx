@@ -68,7 +68,7 @@ const AccordionSection = () => {
     {
       titulo: "Utilização dos usuários como forma de melhoria",
       descricao:
-        "Outra proposta é colocar o usuário da saúde pública como peça central nas melhorias. A partir da experiência de utilização, é possível que o indivíduo colabore com informações sobre como foi seu atendimento. Com um número relevante de opiniões, faz-se um desenho sobre o que pode ser melhorado. O paciente deve estar incluído nas etapas de melhoria..",
+        "Outra proposta é colocar o usuário da saúde pública como peça central nas melhorias. A partir da experiência de utilização, é possível que o indivíduo colabore com informações sobre como foi seu atendimento. Com um número relevante de opiniões, faz-se um desenho sobre o que pode ser melhorado. O paciente deve estar incluído nas etapas de melhoria.",
     },
     {
       titulo: "Orientação para contratações com base em resultado",

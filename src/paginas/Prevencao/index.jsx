@@ -3,14 +3,17 @@ import QuizSection from "../../components/Quiz";
 import { ContainerQuiz } from "../../components/Quiz/styles";
 import MyFooter from "./../../components/Footer/MyFooter";
 import { StyledTitle, PageContainer } from "../../components/StyledBasics/StyleBasics";
+import ButttonScrollToTop from "../../components/ButttonScrollToTop/ButttonScrollToTop";
 
 
 
 const Tema3 = () => {
+  const scrollThreshold = 200;
   return (
     <>
+      
       <TextSection />
-  
+      <ButttonScrollToTop scrollThreshold={scrollThreshold} />
       <ContainerQuiz>
         <br id="quiz-section"></br>
         <PageContainer>

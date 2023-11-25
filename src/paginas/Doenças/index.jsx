@@ -5,6 +5,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 import MyFooter from "./../../components/Footer/MyFooter";
 import { CardSwiperConteudo } from "../../components/CardSwiper/CardSwiperConteudo";
+import ButttonScrollToTop from "../../components/ButttonScrollToTop/ButttonScrollToTop";
 
 //ESTILOS -> ELES DEVERIAM ESTAR NUMA PASTA CHAMADA STYLES.JS MAS OPTEI PRO DEIXAR AQUI POR SEREM POUCOS ESTILOS
 const PageContainer = styled.div`
@@ -40,8 +41,10 @@ const MarcaTexto = styled.strong`
 
 //CONTEUDO CARDS DO SWIPER
 const Tema2 = () => {
+  const scrollThreshold = 170;
   return (
     <TrasitionPages>
+      <ButttonScrollToTop scrollThreshold={scrollThreshold} />
       <PageContainer>
         <div>
           <TitleContainer>

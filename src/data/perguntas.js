@@ -1,6 +1,6 @@
 export const Perguntas = [
     {
-      pergunta: 'Qual é a doença crônica não transmissível (DCNT) com mais preválencia do Brasil?',
+      pergunta: 'Qual é a doença crônica não transmissível (DCNT) com mais prevalência do Brasil?',
       opcoesResposta: [
       { resposta: 'Doenças cardiovasculares', correta: true, alternativa: 'A)' },
       { resposta: 'Gripe e resfriado', correta: false, alternativa: 'B)' },
@@ -18,7 +18,7 @@ export const Perguntas = [
       ]
     },
     {
-      pergunta: 'Entre os fatores de risco, existe um mais prevalente no Brasil que contribui significativamente para a persistência das DCNT, qual seria esse fator?',
+      pergunta: 'Entre os fatores de risco, existe um mais preeminente no Brasil que contribui significativamente para a persistência das DCNT, qual seria esse fator?',
       opcoesResposta: [
       { resposta: 'Consumo excessivo de água', correta: false, alternativa: 'A)' },
       { resposta: 'Falta de assistência médica', correta: false, alternativa: 'B)' },
